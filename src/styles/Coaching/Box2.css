@@ -1,0 +1,66 @@
+.box2-cont {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.box2-el {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 7px 8%;
+}
+
+.bac-box2 {
+  background-color: #f1f1f1;
+  width: 100vw;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-box2 {
+  text-align: center;
+  font-family: "Quicksand", sans-serif; /* Example: Use Quicksand font family */
+  font-weight: bold; /* Regular font weight */
+}
+
+.info-box2 {
+  text-align: center;
+}
+.p-box2 {
+  width: 33vw;
+  font-family: "Quicksand", sans-serif; /* Example: Use Quicksand font family */
+  font-weight: 600; /* Regular font weight */
+  font-size: 16px; /* Example: Adjust font size */
+}
+
+.btn-box2 {
+  margin-top: 20px; /* Add space above the button */
+}
+
+.tex-box2 {
+  margin-top: 30px;
+  width: 10.7vw;
+  background-color: transparent;
+  height: 3.5vw;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 3px solid #009193; /* Add a 2px solid border with the specified color */
+  cursor: pointer;
+  color: #009193;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tex-box2:hover {
+  background-color: #009193;
+  color: white;
+}
+
+.tt-box2 {
+  font-family: "Quicksand", sans-serif; /* Example: Use Quicksand font family */
+  font-weight: bold;
+}

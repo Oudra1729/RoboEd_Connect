@@ -27,18 +27,18 @@
   padding: 7px 8%;
 }
 
-.bac-box {
+.bac-box1 {
   background-color: #fff4ea;
   width: 100vw;
   height: 27vw;
 }
 
-.bac-box .logo-box {
+.bac-box1 .logo-box1 {
   display: flex;
   justify-content: right;
 }
 
-.h1-box {
+.h1-box1 {
   margin-top: 150px;
   padding: 0px 13%;
   width: 38vw;
@@ -47,7 +47,7 @@
   font-weight: 600;
 }
 
-.p-box {
+.p-box1 {
   padding: 0px 13%;
   font-family: "Quiksand";
   width: 38vw;
@@ -55,25 +55,25 @@
   font-weight: 400;
 }
 
-.info-box {
+.info-box1 {
   width: 51.4vw;
 }
 
 
-.info-box .h1-box::after {
+.info-box1 .h1-box1::after {
   content: "TO YOU, YOU GO TO IT” "; /* Append text using pseudo-element */
   display: block; /* Display on a new line */
   
 }
 
 
-.info-box .p-box::after {
+.info-box1 .p-box1::after {
   content: "ordinary. I’m here to help and share my story. "; /* Append text using pseudo-element */
   display: block; /* Display on a new line */
   
 }
 
-.img-box {
+.img-box1 {
   width: 30vw;
   display: flex;
   justify-content: flex-end;
