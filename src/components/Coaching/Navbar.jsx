@@ -2,7 +2,7 @@ import { IoMdCall } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 import React, { useState } from "react";
 import "../../styles/Coaching/Navbar.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/Coaching/logo.png";
 
 import "fontsource-quicksand";
 

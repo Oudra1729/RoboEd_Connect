@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* Use the appropriate font-weight value */
+  font-style: normal;
+}
+
+.box1-cont {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.box1-el {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 7px 8%;
+}
+
+.bac-box {
+  background-color: #fff4ea;
+  width: 100vw;
+  height: 30vw;
+}
+
+.bac-box .logo-box {
+  display: flex;
+  justify-content: right;
+  margin-right: -24px;
+}
+
+.h1-box {
+  margin-top: 150px;
+  padding: 0px 2%;
+  font-family: "Quiksand";
+  font-weight: 600;
+}
+
+.p-box {
+  padding: 0px 2%;
+  font-family: "Quiksand";
+  font-weight: 50;
+}
+
+.info-box {
+  width: 70%;
+}
+
+.info-box .h1-box {
+  display: inline-block; /* Ensure text is treated as a block */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+}
+
+.info-box .h1-box::after {
+  content: "TO YOU, YOU GO TO IT” "; /* Append text using pseudo-element */
+  display: block; /* Display on a new line */
+  white-space: pre-wrap; /* Allow text to wrap */
+}
+
+
+.info-box .p-box {
+  display: inline-block; /* Ensure text is treated as a block */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+}
+
+.info-box .p-box::after {
+  content: "ordinary. I’m here to help and share my story. "; /* Append text using pseudo-element */
+  display: block; /* Display on a new line */
+  white-space: pre-wrap; /* Allow text to wrap */
+}
+
+.img-box {
+  width: 30vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -20%;
+}
