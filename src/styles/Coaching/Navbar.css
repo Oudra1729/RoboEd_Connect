@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* Use the appropriate font-weight value */
+  font-style: normal;
+}
+
+.navbar {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-l {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 8%;
+}
+
+.logo .logo-atars {
+  width: 4vw;
+}
+
+.element,
+ul,
+li {
+  display: inline-block;
+  margin: 10px 22px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.element,
+ul,
+li a {
+  text-decoration: none;
+  font-family: Arial;
+  color: #000000;
+  font-family: "Quiksand";
+  font-weight: 600;
+}
+
+.button-sign .btn-cont {
+  width: 10vw;
+  height: 2.3vw;
+  border-radius: 5vw;
+  border: none;
+  background-color: #009193;
+}
+
+.button-sign .btn-cont a {
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif; /* Specify 'Quicksand' as the preferred font family */
+  font-weight: 600; /* Use the appropriate font-weight value */
+  color: white;
+}
+
+.button-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-cont {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff; /* Example background color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cont:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.call-sign {
+  margin-right: 8px; /* Adjust spacing between icon and text */
+}
