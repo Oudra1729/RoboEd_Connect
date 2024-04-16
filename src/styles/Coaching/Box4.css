@@ -1,0 +1,59 @@
+.box4-cont {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.box4-el {
+  padding: 7px 8%;
+}
+
+.bac-box4 {
+  background-color: #ffefc6;
+  height: 24vw;
+  margin-top: -14px;
+  padding: 10px 6%;
+}
+
+.h1-box4 {
+  width: 29vw;
+  font-family: "Quicksand", sans-serif; /* Example: Use Quicksand font family */
+  font-weight: bold;
+}
+.p-box4 {
+  width: auto;
+  font-size: 19px;
+  text-align: justify;
+  font-family: "Quicksand", sans-serif; /* Example: Use Quicksand font family */
+  font-weight: 100;
+}
+
+.btn-box4 {
+  display: flex;
+  justify-content: right;
+}
+
+.tex-box4 {
+  margin-top: 4px;
+  width: 10.7vw;
+  background-color: #167d9e;
+  height: 3.5vw;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tex-box4:hover {
+  background-color: transparent;
+  border: 3px solid black;
+  color: black;
+}
+
+.tt-box4 {
+  font-family: "Quicksand", sans-serif; /* Example: Use Quicksand font family */
+  font-weight: bold;
+}

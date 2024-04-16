@@ -43,13 +43,13 @@
   padding: 0px 13%;
   width: 38vw;
   word-spacing: 10px;
-  font-family: "Quiksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
 }
 
 .p-box1 {
   padding: 0px 13%;
-  font-family: "Quiksand";
+  font-family: "Quicksand", sans-serif;
   width: 38vw;
   word-spacing: 4px;
   font-weight: 400;
@@ -59,18 +59,14 @@
   width: 51.4vw;
 }
 
-
 .info-box1 .h1-box1::after {
   content: "TO YOU, YOU GO TO IT” "; /* Append text using pseudo-element */
   display: block; /* Display on a new line */
-  
 }
-
 
 .info-box1 .p-box1::after {
   content: "ordinary. I’m here to help and share my story. "; /* Append text using pseudo-element */
   display: block; /* Display on a new line */
-  
 }
 
 .img-box1 {

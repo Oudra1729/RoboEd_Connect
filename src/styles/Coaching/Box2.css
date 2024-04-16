@@ -16,6 +16,7 @@
   background-color: #f1f1f1;
   width: 100vw;
   height: 20vw;
+  margin-top: -14px;
   display: flex;
   justify-content: center;
   align-items: center;
