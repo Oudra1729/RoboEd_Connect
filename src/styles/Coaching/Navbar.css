@@ -99,8 +99,9 @@ li a {
   display: none; /* Initially hide the dropdown */
   list-style-type: none;
   padding: 10px;
+  border-radius: 5%;
   margin: 0;
-  background-color: #fff; /* Dropdown background color */
+  background-color: transparent; /* Dropdown background color */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for dropdown */
   z-index: 1000; /* Ensure dropdown is above other content */
 }
