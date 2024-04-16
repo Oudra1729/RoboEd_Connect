@@ -24,6 +24,7 @@
   width: auto;
   font-size: 19px;
   text-align: justify;
+  line-height: 30px;
   font-family: "Quicksand", sans-serif; /* Example: Use Quicksand font family */
   font-weight: 100;
 }
@@ -34,7 +35,6 @@
 }
 
 .tex-box4 {
-  margin-top: 4px;
   width: 10.7vw;
   background-color: #167d9e;
   height: 3.5vw;
