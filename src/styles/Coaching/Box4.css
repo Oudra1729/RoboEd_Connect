@@ -29,9 +29,14 @@
   font-weight: 100;
 }
 
-.btn-box4 {
+/* .btn-box4 {
   display: flex;
   justify-content: right;
+} */
+.btn-box4 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
 }
 
 .tex-box4 {
@@ -45,6 +50,7 @@
   color: white;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  margin-right: 15px;
 }
 
 .tex-box4:hover {
@@ -56,4 +62,82 @@
 .tt-box4 {
   font-family: "Quicksand", sans-serif; /* Example: Use Quicksand font family */
   font-weight: bold;
+}
+
+
+.popup-over {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-cont {
+  position: relative; /* Ensure relative positioning for absolute child */
+  background-color: #fffffff6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 70vw;
+  height: 40vw; /* Use auto height for dynamic content */
+  overflow-y: auto;
+}
+
+.buttonclose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #333;
+  font-size: 24px;
+  width: 40px; /* Optional: Adjust width to contain the icon */
+  height: 40px; /* Optional: Adjust height to contain the icon */
+}
+
+.buttonclose:hover{
+  color: red;
+}
+
+.pop-h2{
+  text-align: center;
+  font-family: "Quicksand", sans-serif; /* Example: Use Quicksand font family */
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.pop-img {
+  display: block; /* Ensure the image is a block element */
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 20vw;
+  border:  6px solid grey;
+}
+
+.pop-p{
+  padding: 7px 8%;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .popup-cont {
+    width: 80vw; /* Adjust width for smaller screens */
+  }
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .box4-el {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .box4-el {
+    width: 95%;
+  }
 }

@@ -1,0 +1,37 @@
+.text-video-container {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  padding: 40px 8%;
+}
+
+.text-video {
+  width: 84.05vw;
+  display: flex;
+  background-color: #ececec;
+  flex-direction: row;
+}
+.text-content {
+  width: 50vw; /* Text section takes up twice the space as video */
+  padding: 0.5rem; /* Add some padding for readability */
+  padding: 20px 5%;
+}
+
+.text-content .t-v-p {
+  width: auto;
+  text-align: justify;
+}
+
+.video-container {
+  width: 32.9vw; /* Video section takes up half the space */
+  display: flex;
+
+  justify-content: center; /* Center video horizontally */
+  align-items: center; /* Center video vertically */
+}
+
+video {
+  width: 32.9vw; /* Ensure video scales within container */
+  height: 22vw;
+  margin-right: 30px;
+}

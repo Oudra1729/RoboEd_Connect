@@ -63,7 +63,7 @@
   max-width: 90%;
   max-height: 90%;
   overflow: auto;
-  background-color: #ddf8d3;
+  background-color: rgba(0, 0, 0, 0.288);
   border: 10px solid transparent;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);

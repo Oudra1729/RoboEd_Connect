@@ -5,6 +5,8 @@ import Box1 from "./components/Coaching/Box1";
 import Box2 from "./components/Coaching/Box2";
 import Box3 from "./components/Coaching/Box3";
 import Box4 from "./components/Coaching/Box4";
+import Box5 from "./components/Coaching/Box5";
+import Footer from "./components/Coaching/Footer";
 
 
 const App = () => {
@@ -15,6 +17,8 @@ const App = () => {
       <Box2/>
       <Box3/>
       <Box4/>
+      <Box5/>
+      <Footer/>
     </div>
   )
 };
