@@ -12,7 +12,7 @@ import Footer from "./Footer";
 const PageCoaching = () => {
     return (
       <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Box1/>
         <Box2/>
         <Box3/>

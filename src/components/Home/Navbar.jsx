@@ -5,6 +5,7 @@ import "../../styles/Coaching/Navbar.css";
 import logo from "../../assets/Coaching/logo.png";
 
 import "fontsource-quicksand";
+import { Outlet, Link } from "react-router-dom";
 
 function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -14,56 +15,73 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar">
-      <div className="navbar-l">
-        <div className="logo">
-          <a href="http://localhost:5173/">
-            <img src={logo} alt="" className="logo-atars" />
-          </a>
-        </div>
-
-        <div className="element">
-          <ul>
-            <li className="li-li">
-              <a href="">HOME</a>
-            </li>
-            <li className="li-li">
-              <a href="#" onClick={handleActivitiesClick}>
-                ACTIVITIES <IoIosArrowDown className="lo-acti" />
-              </a>
-              {showDropdown && ( // Render dropdown if showDropdown is true
-                <ul className="dropdown">
-                  <li className="li-drop">
-                    <a href="Coaching">Coaching</a>
-                  </li>
-                  <li>
-                    <a href="Informatics">Informatics</a>
-                  </li>
-                  <li>
-                    <a href="English">English</a>
-                  </li>
-                  <li>
-                    <a href="Robotics">Robotics</a>
-                  </li>
-                </ul>
-              )}
-            </li>
-            <li className="li-li">
-              <a href="">PORTFOLIO</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="button-sign">
-          <button className="btn-cont">
-            <a href="">
-              <IoMdCall className="call-sign" />
-              <span>CONTACT US</span>
+    <>
+      <div className="navbar">
+        <div className="navbar-l">
+          <div className="logo">
+            <a href="http://localhost:5173/">
+              <img src={logo} alt="" className="logo-atars" />
             </a>
-          </button>
+          </div>
+
+          <div className="element">
+            <ul>
+              <li className="li-li">
+                <a>
+                  <Link to="/PageHome">HOME</Link>
+                </a>
+              </li>
+              <li className="li-li">
+                <a href="#" onClick={handleActivitiesClick}>
+                  ACTIVITIES <IoIosArrowDown className="lo-acti" />
+                </a>
+                {showDropdown && ( // Render dropdown if showDropdown is true
+                  <ul className="dropdown">
+                    <li className="li-drop">
+                      <a>
+                        <Link to="/PageCoaching">Coaching</Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <Link to="/">Informatics</Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <Link to="/">English</Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <Link to="/">Robotics</Link>
+                      </a>
+                    </li>
+                  </ul>
+                )}
+              </li>
+              <li className="li-li">
+                <a>
+                  <Link to="/">PORTFOLIO</Link>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="button-sign">
+            <button className="btn-cont">
+              <a href="">
+                <Link to="/" >
+                  <IoMdCall className="call-sign" />
+                  <span>CONTACT US</span>
+                </Link>
+              </a>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+      <Outlet />
+    </>
   );
 }
 

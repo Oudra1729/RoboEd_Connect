@@ -12,7 +12,7 @@ import BoxH5 from "./BoxH5";
 const PageHome = () => {
     return (
       <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <BoxH1/>
         <BoxH2/>
         <BoxH3/>

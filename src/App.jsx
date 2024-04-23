@@ -1,16 +1,27 @@
 import React from "react";
-import './App.css'
+import "./App.css";
 import PageCoaching from "./components/Coaching/PageCoaching";
 import PageHome from "./components/Home/PageHome";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Home/Navbar";
 
 const App = () => {
   return (
-    <div>
-      {/* <PageCoaching/> */}
-      <PageHome/>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<PageHome />} />
+          <Route path="PageHome" element={<PageHome />} />
+          <Route path="PageCoaching" element={<PageCoaching />} />
+          <Route path="home" element={<PageHome />}>
+            <Route index element={<PageHome />} />
+            <Route path="home" element={<PageHome />} />
+            <Route path="coach" element={<PageCoaching />} />
+          </Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default App;
