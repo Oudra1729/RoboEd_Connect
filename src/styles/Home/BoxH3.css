@@ -1,0 +1,119 @@
+.boxh3-container {
+  width: 100vw;
+}
+
+.boxh3-ell {
+  width: 83%;
+  padding: 7px 8%;
+}
+
+.boxh3-al {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxh3-img {
+  width: 57%;
+}
+
+.boxh3-info {
+  width: 40%;
+}
+
+.img-man {
+  width: 35vw;
+  height: 35vw;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.boxh3-text {
+  display: flex;
+  align-items: center;
+}
+
+.img-provide {
+  width: 1.7vw;
+}
+
+.boxh3-provide {
+  margin-right: 4%;
+}
+
+.text-provide {
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  color: #21babd;
+}
+
+.boxh3-provide-p{
+    margin-bottom: 10%;
+}
+
+.para-provide {
+  font-size: 28px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+.boxh3-solution {
+    width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.boxh3-sp-img{
+    width: 4vw;
+}
+
+.boxh3-title {
+  margin-top: 0px;
+  margin-left: 25px;
+}
+
+.boxh3-h3 {
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.boxh3-paragraph{
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+
+
+.boxh3-coach {
+    width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.boxh3-coach-img{
+    width: 4vw;
+}
+
+.boxh3-coach-title {
+  margin-top: 0px;
+  margin-left: 25px;
+}
+
+.boxh3-coach-h3 {
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.boxh3-coach-paragraph{
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}

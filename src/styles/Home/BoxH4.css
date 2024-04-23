@@ -1,0 +1,23 @@
+.boxh4-container{
+    width: 100vw;
+}
+
+.boxh4-all{
+    width: 83.3%;
+    padding: 7px 8%;
+}
+
+.boxh4-elem{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffb70079;
+}
+
+.boxh4-text{
+    width: 60%;
+}
+
+.boxh4-image{
+    width: 40%;
+}
+
