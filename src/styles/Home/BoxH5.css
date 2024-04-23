@@ -1,0 +1,40 @@
+.boxh5-container {
+  width: 100vw;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+}
+
+.boxh5-all {
+  width: 83.7%;
+  padding: 7px 8%;
+}
+
+.boxh5-elle {
+  background-color: rgba(128, 128, 128, 0.24);
+  height: 27vw;
+}
+
+.boxh5-why {
+  padding-top: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.boxh5-why-txt {
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.boxh5-why-pp {
+  display: flex;
+  justify-content: center;
+}
+
+.boxh5-why-paragraph {
+  text-align: justify;
+  padding: 0px 8%;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}

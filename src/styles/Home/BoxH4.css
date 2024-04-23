@@ -1,23 +1,91 @@
-.boxh4-container{
-    width: 100vw;
+.boxh4-container {
+  width: 100vw;
+  padding-top: 5%;
 }
 
-.boxh4-all{
-    width: 83.3%;
-    padding: 7px 8%;
+.boxh4-all {
+  width: 83.7%;
+  padding: 7px 8%;
 }
 
-.boxh4-elem{
+.boxh4-elem {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffb70079;
+  height: 27vw;
+}
+
+.boxh4-text {
+  width: 60%;
+}
+
+.boxh4-text-info {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  padding-top: 6%;
+}
+
+.boxh4-text-info-img {
+  width: 2.5vw;
+  margin-right: 3%;
+}
+
+.boxh4-text-info-h4 {
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.boxh4-text-info-a {
+  padding: 0px 17.5%;
+}
+
+.boxh4-text-info-p {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.boxh4-text-info-btn {
+  padding: 0px 17.5%;
+  padding-top: 5%;
+  
+}
+
+.boxh4-text-info-button {
+  width: 12vw;
+  height: 3.5vw;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  background-color: #fe563f;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.boxh4-text-info-button:hover{
+    background-color: blue;
+}
+
+.boxh4-image {
+  width: 40%;
+}
+
+.boxh4-image-middle-img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 10%;
+}
+
+.boxh4-image-middle{
     display: flex;
-    justify-content: space-between;
-    background-color: #ffb70079;
+    justify-content: center;
 }
-
-.boxh4-text{
-    width: 60%;
-}
-
-.boxh4-image{
-    width: 40%;
-}
-

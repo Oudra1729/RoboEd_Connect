@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 import BoxH2 from "./BoxH2";
 import BoxH3 from "./BoxH3";
 import BoxH4 from "./BoxH4";
+import BoxH5 from "./BoxH5";
 
 const PageHome = () => {
     return (
@@ -16,7 +17,8 @@ const PageHome = () => {
         <BoxH2/>
         <BoxH3/>
         <BoxH4/>
-        {/* <Footer/> */}
+        <BoxH5/>
+        <Footer/>
       </div>
     )
   };
