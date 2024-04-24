@@ -44,7 +44,7 @@ function Navbar() {
                     </li>
                     <li>
                       <a>
-                        <Link to="/">Informatics</Link>
+                        <Link to="/PageInformatique">Informatics</Link>
                       </a>
                     </li>
                     <li>
