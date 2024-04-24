@@ -5,9 +5,9 @@ import { SlEnvolopeLetter } from "react-icons/sl";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import React from "react";
-import "../styles/Footer.css";
+import "../../styles/Informatique/Footer.css";
 
-import logo from '../assets/Informatique/logo.png'
+import logo from '../../assets/Informatique/logo.png'
 
 function Footer() {
   return (
