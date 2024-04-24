@@ -18,7 +18,7 @@ function Info6() {
             </video>
           </div>
           <div className="video-container-info">
-            <video width="500" height="200" controls autoPlay loop>
+            <video width="500" height="200" controls  loop>
               <source src={video2} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -26,13 +26,13 @@ function Info6() {
         </div>
         <div className="row-info">
           <div className="video-container-info">
-            <video width="500" height="200" controls autoPlay loop>
+            <video width="500" height="200" controls  loop>
               <source src={video3} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <div className="video-container-info">
-            <video width="500" height="200" controls autoPlay loop>
+            <video width="500" height="200" controls  loop>
               <source src={video4} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
