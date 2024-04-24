@@ -1,0 +1,42 @@
+.container-new {
+  width: 100%; /* Changer de 100vw à 100% */
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Changer la couleur de fond */
+}
+
+.bac-new {
+  background-color: #ceb8b8; /* Changer la couleur de fond */
+  width: 80%; /* Changer de 100vw à 90% */
+  height: auto; /* Changer de 20vw à auto */
+  margin-top: 5%; /* Supprimer la marge supérieure */
+  margin-left: 8%;
+  padding: 20px; /* Ajouter un rembourrage */
+}
+
+.paragraph-new {
+  width: 70%; /* Changer de 33vw à 90% */
+  font-size: 18px; /* Changer la taille de la police */
+  margin: 50px auto; /* Ajouter une marge sur le dessus et le bas, et centrer horizontalement */
+  text-align: center; /* Centrer le texte */
+}
+.heading-new {
+  font-size: 40px; /* Changer la taille de la police */
+  text-align: center; /* Centrer le texte */
+}
+
+.text-new {
+ 
+  width: auto; /* Changer de 10.7vw à auto */
+  background-color: #009193; /* Changer la couleur de fond */
+  padding: 12px 24px; /* Ajuster le rembourrage */
+  font-size: 16px; /* Ajuster la taille de la police */
+  border: 2px solid #009193; /* Changer de 3px à 2px */
+  border-radius: 10px; /* Ajuster le rayon de la bordure */
+  margin-top: 30px; /* Garder la marge supérieure */
+  margin-left: 40%;
+}
+
+.text-new:hover {
+  background-color: #007b76; /* Changer la couleur de fond au survol */
+}

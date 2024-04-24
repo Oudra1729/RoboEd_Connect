@@ -1,0 +1,110 @@
+.container-info3 {
+  /* width: 100vw; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1vw;
+  padding: 7px 8%;
+}
+
+.element-info3 {
+  position: relative;
+  max-width: 90vw;
+  min-height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18vw, 2fr));
+  gap: 20px;
+}
+
+.slider-info3 .first-image-info3 {
+  object-fit: cover;
+  border-radius: 13px;
+  width: 40vw;
+  height: 35vw;
+  cursor: pointer;
+}
+
+.description-info3 {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+}
+
+.image-info3 {
+  position: relative;
+  width: 41.4vw;
+  height: 17vw;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 13px;
+}
+
+.second-image-info3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.popup-overlay-info3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-container-info3 {
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.288);
+  border: 10px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-image-info3 {
+  width: 80vw;
+  height: 40vw;
+  object-fit: cover; /* Ensure the image covers the entire container */
+  display: block;
+  border-radius: 8px;
+}
+
+.slider-info3 {
+  position: relative;
+}
+
+.first-image-info3 {
+  width: 100%; /* Or as needed */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.prev-button-info3,
+.next-button-info3 {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 80px; /* Font size */
+  color: #a77f7f; /* Text color */
+  cursor: pointer;
+  padding: 10%;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.prev-button-info3 {
+  left: -10%;
+}
+
+.next-button-info3 {
+  right: -7%;
+}
+

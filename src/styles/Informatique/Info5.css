@@ -1,0 +1,32 @@
+.container-info-videos {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  padding: 50px 8%;
+  margin-left: -3%;
+}
+
+.content-info-videos {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.video-container-info {
+  width: 45%; /* Each video container takes 45% of the width */
+  display: flex;
+  justify-content: center; /* Center video horizontally */
+  align-items: center; /* Center video vertically */
+  margin-bottom: 30px; /* Add some margin between rows */
+}
+
+.video-info {
+  width: 100%; /* Video takes full width of container */
+  height: auto;
+}

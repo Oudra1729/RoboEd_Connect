@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* Use the appropriate font-weight value */
+  font-style: normal;
+}
+
+.box1-container {
+  flex-direction: column;
+  width: 100vw;
+  padding: 0;
+  margin-top: 10%;
+}
+
+.box1-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 8%;
+}
+
+.background-box1 {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 27vw;
+}
+
+.background-box1 .logo-box1 {
+  width: auto;
+  display: flex;
+  justify-content: right;
+}
+
+.heading-box1 {
+  margin-top: 150px;
+  padding: 0px 13%;
+  width: 38vw;
+  word-spacing: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+.paragraph-box1 {
+  padding: 0px 13%;
+  font-family: "Quicksand", sans-serif;
+  width: 38vw;
+  word-spacing: 4px;
+  font-weight: 400;
+}
+
+.info-box1 {
+  width: 51.4vw;
+  margin-left: -8%;
+  margin-top: -9%;
+}
+
+.info-box1 .heading-box1::after {
+   /* Append text using pseudo-element */
+  display: block; /* Display on a new line */
+}
+
+.info-box1 .paragraph-box1::after {
+   /* Append text using pseudo-element */
+  display: block; /* Display on a new line */
+}
+
+.image-box1 {
+  width: 30vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -25%;
+}
