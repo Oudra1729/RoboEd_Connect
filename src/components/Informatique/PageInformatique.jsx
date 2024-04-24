@@ -1,18 +1,18 @@
 
 import React from "react";
-import Navbar from "./components/Navbar";
-import Info1 from ".Info1";
-import Info2 from "./Info2";
-import Info3 from "./Info3";
-import Info4 from ".Info4";
-import Info5 from ".Info5";
-import Footer from "./components/Footer";
+
+import Info1 from "../Informatique/Info1";
+import Info2 from "../Informatique/Info2";
+import Info3 from "../Informatique/Info3";
+import Info4 from "../Informatique/Info4";
+import Info5 from "../Informatique/Info5";
+import Footer from "../Informatique/Footer";
 
 
 const PageInformatique = () => {
   return (
     <div>
-      <Navbar/>
+
       <Info1/>
       <Info2/>
       <Info3/>
