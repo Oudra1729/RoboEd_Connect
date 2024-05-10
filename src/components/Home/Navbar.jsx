@@ -49,7 +49,7 @@ function Navbar() {
                     </li>
                     <li>
                       <a>
-                        <Link to="/">English</Link>
+                        <Link to="/PageEnglish">English</Link>
                       </a>
                     </li>
                     <li>

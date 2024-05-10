@@ -1,0 +1,247 @@
+
+
+
+@font-face {
+    font-family: "Quicksand";
+    src: url format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* SemiBold */
+  @font-face {
+    font-family: "Quicksand";
+    src: url format("truetype");
+    font-weight: 670; /* Use the appropriate font-weight value */
+    font-style: normal;
+  }
+  
+  .navbar {
+    display: flex;
+    width: 200vw;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-l {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 8%;
+  }
+  
+  .logo .logo-atars {
+    width: 4vw;
+  }
+  
+  .element,
+  ul,
+  li {
+    list-style: none;
+    justify-content: space-between;
+    display:flex;
+    margin: 10px 22px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .element,
+  ul,
+  li a {
+    text-decoration: none;
+    font-family: Arial;
+    color: #000000;
+    font-family: "Quiksand";
+    font-weight: 600;
+  }
+  
+  .button-sign .btn-cont {
+    width: 10vw;
+    height: 2.3vw;
+    border-radius: 5vw;
+    border: none;
+    background-color: #009193;
+  }
+  
+  .button-sign .btn-cont a {
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif; /* Specify 'Quicksand' as the preferred font family */
+    font-weight: 600; /* Use the appropriate font-weight value */
+    color: white;
+  }
+  
+  .button-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-cont {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff; /* Example background color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-cont:hover {
+ background-color: darkcyan;/* Darker background color on hover */
+  }
+  
+  .call-sign {
+    margin-right: 8px; /* Adjust spacing between icon and text */
+  }
+  .headerrr{
+    background-color: lightgoldenrodyellow;
+    width: 1300px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .headerrr .lktaba1{
+    padding-top: 100px;
+    padding-left: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: larger;
+  }
+  .lbrhousha{
+    padding-left: 675px;
+  }
+ 
+
+
+
+   .top-body1{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-body1 .bodyyy1{
+background-color: khaki;
+ width: 450px;
+ height: 550px;
+  }
+  .lbrhousha2{ 
+    width: 450px;}
+    .ktaba1{
+      font-size: 25px;
+      color: orange;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h5{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 10px;
+        font-size: 17px;
+        
+    }
+    .bodyy1{
+        background-color: khaki;
+        padding-top: 20px;
+        padding-right: 10px;
+        width: 350px;
+        height: 650px;
+      
+        color: black;
+       
+        margin-right: 100px;
+
+    }
+    h4{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        font-size: 20px;
+        padding-left: 15px;
+
+    }
+  .top-body2{
+    display: flex;
+    margin-top: 50px;
+  }
+  .top-body2 .bodyyy2{
+    margin-top: 130px;
+    margin-left: 100px;
+    background-color: rgb(251, 206, 190);
+    height: 550px;
+
+  }
+  .top-body2 .bodyyy2 .lbrhousha3{
+    width: 400px;
+    height: 300px;
+
+  }
+  .ktaba2{
+    font-size: 25px;
+  color: rgb(220, 82, 36);
+      padding-left: 15px;
+      padding-top: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .bodyy2{
+margin-left: 550px;
+    background-color: rgb(251, 206, 190);
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 350px;
+    height: 650px;
+  
+    color: black;
+   
+  
+  }
+
+
+
+
+  .mid-body{
+    background-color:  lightgoldenrodyellow;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .mid-body .title{
+    font-size: 25px;
+    color:black;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .ktaba3{
+    padding: 10px;
+
+  }
+  .top-body3{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+
+  }
+  .top-body3 .bodyyy3{
+    background-color: rgb(224, 250, 224);
+    margin-left: 100px;
+
+  }
+  .top-body3 .bodyyy3 .lbrhoush{
+    width: 400px;
+  }
+.bodyy3{
+    margin-right: 100px;
+    width: 400px;
+    background-color: rgb(224, 250, 224);
+    
+  
+    color: black;
+}
+.ktaba4{
+    font-size: 25px;
+    color:rgb(36, 100, 36) ;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
