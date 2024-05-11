@@ -59,7 +59,7 @@ function Info3() {
       <div className="element-info3">
         <ImageSlider />
         <div className="description-info3">
-          <p>
+          <p className="description-info3-p">
             The New Generation Center stands as a beacon of innovation and
             opportunity in the realm of youth education, specializing in the
             comprehensive exploration of informatics for children aged 10 to 15.

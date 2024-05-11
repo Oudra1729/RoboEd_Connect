@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 1vw;
-  padding: 7px 8%;
+  padding: 30px 8%;
 }
 
 .element-info3 {
@@ -108,3 +108,6 @@
   right: -7%;
 }
 
+.description-info3-p{
+  text-align: justify;
+}
