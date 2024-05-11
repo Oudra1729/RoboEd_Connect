@@ -75,6 +75,8 @@
 .image-box1 {
   width: 30vw;
   display: flex;
+  object-fit: cover;
+  height: 32vw;
   justify-content: flex-end;
   margin-top: -25%;
 }
