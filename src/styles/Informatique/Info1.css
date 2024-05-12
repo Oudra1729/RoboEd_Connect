@@ -28,9 +28,9 @@
 }
 
 .background-box1 {
-  background-color: #ffffff;
+  background-color: #fff9f9;
   width: 100vw;
-  height: 27vw;
+  height: 22vw;
 }
 
 .background-box1 .logo-box1 {
@@ -41,7 +41,7 @@
 
 .heading-box1 {
   margin-top: 150px;
-  padding: 0px 13%;
+  padding: 0px 15%;
   width: 38vw;
   word-spacing: 10px;
   font-family: "Quicksand", sans-serif;
@@ -49,7 +49,7 @@
 }
 
 .paragraph-box1 {
-  padding: 0px 13%;
+  padding: 0px 15%;
   font-family: "Quicksand", sans-serif;
   width: 38vw;
   word-spacing: 4px;
@@ -75,6 +75,8 @@
 .image-box1 {
   width: 30vw;
   display: flex;
+  object-fit: cover;
+  height: 30.4vw;
   justify-content: flex-end;
   margin-top: -25%;
 }

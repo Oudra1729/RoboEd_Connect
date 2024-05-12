@@ -5,7 +5,7 @@ import  PageInformatique from "./components/Informatique/PageInformatique";
 import PageHome from "./components/Home/PageHome";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Home/Navbar";
-
+import PageEnglish from './components/English/PageEnglish'
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,10 +15,10 @@ const App = () => {
           <Route path="PageHome" element={<PageHome />} />
           <Route path="PageCoaching" element={<PageCoaching />} />
           <Route path="PageInformatique" element={<PageInformatique/>} />
+          <Route path="PageEnglish" element={<PageEnglish/>} />
           <Route path="home" element={<PageHome />}>
             <Route index element={<PageHome />} />
-            <Route path="home" element={<PageHome />} />
-            <Route path="coach" element={<PageCoaching />} />
+            <Route path="PageHome" element={<PageHome />} />
           </Route>
         </Route>
       </Routes>

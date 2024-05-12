@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* Use the appropriate font-weight value */
+  font-style: normal;
+}
+
+.english4-cont {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.english4-el {
+  padding: 50px 8%;
+}
+
+.bac-english4 {
+  background-color: #fffdd1;
+  height: 30vw;
+}
+
+.center-english4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.english4-split1-h2 {
+  padding: 0px 8%;
+  text-align: center;
+  font-size: 31px;
+  width: 36%;
+  font-weight: bold;
+}
+
+.center-english4-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.english4-split1-p{
+    padding: 0px 5%;
+    margin-top: -10px;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 48px;
+}

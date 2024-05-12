@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* SemiBold */
+  @font-face {
+    font-family: "Quicksand";
+    src: url("../fonts/Quicksand-SemiBold.ttf") format("truetype");
+    font-weight: 600; /* Use the appropriate font-weight value */
+    font-style: normal;
+  }
+  
+  .english5-cont {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .english5-el {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 50px 8%;
+  }
+  
+  .bac-english5 {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  
+  .english5-split1 {
+    background-color: #fff1ea;
+    width: 48%;
+    height: 37vw;
+  }
+  
+  .english5-split2 {
+    background-color: #fff1ea;
+    width: 48%;
+    height: 37vw;
+  }
+  
+  .english5-img {
+    width: 40.32vw;
+    object-fit: cover;
+    height: 24vw;
+  }
+  
+  .english5-title-h1 {
+    text-align: center;
+    color: #f06c21;
+  }
+  
+  .english5-title-p {
+    text-align: center;
+    font-size: 25px;
+    padding: 3px 5%;
+  }
+  
+  .english5-split2-title {
+    padding: 0px 8%;
+    text-align: justify;
+    font-size: 30px;
+    line-height: 42px;
+  }
+  

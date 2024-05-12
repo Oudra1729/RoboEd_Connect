@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* Use the appropriate font-weight value */
+  font-style: normal;
+}
+
+.english-cont {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.english-el {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 7px 8%;
+}
+
+.bac-english {
+  background-color: hsla(56, 91%, 87%, 0.686);
+  width: 100vw;
+  height: 37vw;
+}
+
+.bac-english .logo-english {
+  display: flex;
+  justify-content: right;
+}
+
+.h1-english {
+  margin-top: 200px;
+  font-size: 40px;
+  padding: 0px 7%;
+  width: 38vw;
+  word-spacing: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.p-english {
+  padding: 0px 13%;
+  font-family: "Quicksand", sans-serif;
+  width: 38vw;
+  word-spacing: 4px;
+  font-weight: 400;
+}
+
+.info-english {
+  width: 51.4vw;
+}
+
+.info-english .h1-english::after {
+  content: "Prove your potential "; /* Append text using pseudo-element */
+  display: block; /* Display on a new line */
+}
+
+
+.img-english {
+  width: 40vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -12%;
+}
