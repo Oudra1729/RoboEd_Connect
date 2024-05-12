@@ -8,6 +8,8 @@ import React from "react";
 import "../../styles/Coaching/Footer.css";
 
 import logo from '../../assets/Coaching/logo.png'
+import { Link, Outlet } from "react-router-dom";
+import PageHome from '../../components/Home/PageHome'
 
 function Footer() {
   return (
@@ -85,27 +87,27 @@ function Footer() {
                   <ul className="copy-ul">
                     <li className="copy-li">
                       <a className="copy-a" href="#">
-                      Home
+                      <Link to={PageHome}>Home</Link>
                       </a>
                     </li>
                     <li className="copy-li">
                       <a className="copy-a" href="#">
-                      Portfolio
+                      <Link to="">Portfolio</Link>
                       </a>
                     </li>
                     <li className="copy-li">
                       <a className="copy-a" href="#">
-                      Contact us
+                      <Link to="/">Contact us</Link>
                       </a>
                     </li>
                     <li className="copy-li">
                       <a className="copy-a" href="#">
-                      Activities
+                      <Link to="/">Activities</Link>
                       </a>
                     </li>
                     <li className="copy-li">
                       <a className="copy-a" href="#">
-                      Our services
+                      <Link to="/">Our services</Link>
                       </a>
                     </li>
                   </ul>
@@ -134,6 +136,7 @@ function Footer() {
           </div>
         </div>
       </footer>
+      <Outlet/>
     </div>
   );
 }
