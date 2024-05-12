@@ -54,7 +54,7 @@ function Navbar() {
                     </li>
                     <li>
                       <a>
-                        <Link to="/">Robotics</Link>
+                        <Link to="/PageRobotics">Robotics</Link>
                       </a>
                     </li>
                   </ul>
@@ -62,7 +62,7 @@ function Navbar() {
               </li>
               <li className="li-li">
                 <a>
-                  <Link to="/">PORTFOLIO</Link>
+                  <Link to="/PagePORTFOLIO">PORTFOLIO</Link>
                 </a>
               </li>
             </ul>
