@@ -40,7 +40,7 @@
 
 .h1-box1 {
   margin-top: 150px;
-  padding: 0px 13%;
+  padding: 0px 18%;
   width: 38vw;
   word-spacing: 10px;
   font-family: "Quicksand", sans-serif;
@@ -48,7 +48,7 @@
 }
 
 .p-box1 {
-  padding: 0px 13%;
+  padding: 0px 18%;
   font-family: "Quicksand", sans-serif;
   width: 38vw;
   word-spacing: 4px;
@@ -73,5 +73,5 @@
   width: 30vw;
   display: flex;
   justify-content: flex-end;
-  margin-top: -25%;
+  margin-top: -16%;
 }
