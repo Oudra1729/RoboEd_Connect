@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/Home/BoxH1.css";
-
-import Logoh from "../../assets/Home/child.png";
+import VideoSource from "../../assets/Home/teacher.mp4"; // Add your video source here
 
 function BoxH1() {
   return (
@@ -11,14 +10,15 @@ function BoxH1() {
           <div className="info-boxh1">
             <h1 className="h1-boxh1">Formation</h1>
             <p className="p-boxh1">
-            An innovative and advanced engineering experience for children
+              An innovative and advanced engineering experience for children
             </p>
           </div>
         </div>
         <div className="logo-boxh1">
-          <div class="circle-face">
-            <img src={Logoh} alt="" className="img-boxh1" />
-          </div>
+          <video className="video-circle" autoPlay loop muted>
+            <source src={VideoSource} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>
