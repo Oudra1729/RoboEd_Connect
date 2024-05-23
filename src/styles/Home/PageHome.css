@@ -1,3 +1,7 @@
 html, body{
     overflow-x:hidden ;
   }
+
+  .background-conatiner{
+    /* background-image: url(/src/assets/Home/background1.jpg); */
+  }
