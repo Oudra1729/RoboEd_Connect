@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/Home/BoxH1.css";
-import VideoSource from "../../assets/Home/teacher.mp4"; // Add your video source here
+import VideoSource from "../../assets/Home/robot.mp4"; // Add your video source here
 
 function BoxH1() {
   return (
@@ -15,10 +15,13 @@ function BoxH1() {
           </div>
         </div>
         <div className="logo-boxh1">
-          <video className="video-circle" autoPlay loop muted>
-            <source src={VideoSource} type="video/mp4" />
+          <video className="video-circle" width="500" height="200" controls loop>
+            <source className="ddd" src={VideoSource} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+        </div>
+        <div className="button-boxh1">
+          <button className="btnnnn">More</button>
         </div>
       </div>
     </div>

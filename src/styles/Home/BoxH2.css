@@ -11,6 +11,7 @@
 .boxh2-box {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 
+  background-color: rgba(255, 255, 255, 0.864);
   width: 15vw;
   height: 17vw;
 }
@@ -39,14 +40,32 @@
   margin: 0px 0px;
 }
 
-.boxh2-link{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-
+.boxh2-link {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
 }
 
-.boxh2-link .link-a{
-    text-decoration: none;
-    color: #005BC5;
+.boxh2-link .link-a {
+  text-decoration: none;
+  color: #005bc5;
+}
+
+.button-boxh1 {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: center;
+}
+
+.btnnnn {
+  width: 13vw;
+  height: 5vw;
+  background-color: rgba(159, 56, 56, 0.811);
+  /* border: none; */
+  color: white;
+  font-size: 23px;
+}
+.btnnnn:hover {
+  background-color: rgba(255, 127, 80, 0.86);
+  color: black;
 }

@@ -9,8 +9,10 @@ import BoxH4 from "./BoxH4";
 import BoxH5 from "./BoxH5";
 
 const PageHome = () => {
-    return (
-      <div className="background-conatiner">
+  return (
+    <div className="background-container">
+      <div className="background-overlay"></div>
+      <div className="content">
         <BoxH1/>
         <BoxH2/>
         <BoxH3/>
@@ -18,7 +20,8 @@ const PageHome = () => {
         <BoxH5/>
         <Footer/>
       </div>
-    )
-  };
-  
-  export default PageHome;
+    </div>
+  );
+};
+
+export default PageHome;
