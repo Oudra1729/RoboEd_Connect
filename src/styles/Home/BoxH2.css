@@ -60,12 +60,14 @@
 .btnnnn {
   width: 13vw;
   height: 5vw;
-  background-color: rgba(159, 56, 56, 0.811);
+  border-radius: 2em;
+  background-color: rgb(156, 156, 255);
   /* border: none; */
-  color: white;
-  font-size: 23px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
 }
 .btnnnn:hover {
-  background-color: rgba(255, 127, 80, 0.86);
-  color: black;
+  background-color: rgba(0, 4, 249, 0.86);
+  color: rgb(255, 255, 255);
 }
