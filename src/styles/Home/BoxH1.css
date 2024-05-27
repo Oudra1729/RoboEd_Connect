@@ -5,83 +5,35 @@
   font-style: normal;
 }
 
-
 .boxh1-cont {
   width: 100vw;
   margin: 0;
   padding: 0;
 }
 
-.boxh1-el {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.h1-boxh1 {
+  text-align: center;
+  font-size: 50px;
+}
 
-  padding: 7px 8%;
+.p-boxh1{
+  font-size: 25px;
 }
 
 .bac-boxh1 {
-  width: 100vw;
-  height: 27vw;
-}
-
-.bac-boxh1 .logo-boxh1 {
   display: flex;
-  justify-content: right;
+  justify-content: center;
+}
+.logo-boxh1 {
+  display: flex;
+  justify-content: center;
 }
 
-.logo-boxh1{
-    padding-top: 10%;
+.logo-boxh1 .video-circle {
+  width: 53.3vw;
+  height: 30vw;
 }
 
-.h1-boxh1 {
-  font-size: 45px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: lighter;
-  margin: 10px 0px;
-}
-
-.p-boxh1 {
-  /* padding: 0px 13%; */
-  margin: 0px 0px;
-  font-size: 35px;
-  font-family: "Quicksand", sans-serif;
-  width: 28vw;
-  font-weight: bold;
-}
-
-.info-boxh1 {
-  width: 51.4vw;
-}
-  
-
-
-.circle-face {
-  display: inline-block;
-  /* border: 4px solid #00b9d1; */
-  background-color: #005BC5;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  /*   background-color: red; */
-  margin-top: 40px; /* 30px forehead space */
-}
-.circle-face > * {
-  display: inline-block;
-  width: 300px;
-  height: 410px; /* by 30px higher */
-  margin-top: -110px; /* and offset by 30px */
-  margin-left: 15px;
-  background: none no-repeat center bottom / 200px;
-  border-radius: 0 0 170px 125px; /* 70 + 70 = 140px width */
-
-  /*    box-shadow: 0 0 0 4px red;     */
-  /* UNCOMMENT TO SEE THE TRICK */
-
-  transition: background-size 0.3s ease-in-out;
-}
-
-.circle-face:hover > * {
-  background-size: 230px;
-  /*   scale: 1.1; */
+.video-circle{
+  border: 8px solid rgb(100, 96, 96);
 }
